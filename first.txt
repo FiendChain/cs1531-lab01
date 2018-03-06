@@ -1,3 +1,5 @@
 A test file for a git commit
 An edit made from GitHub
 Making a change from a local branch stored on computer
+This can be pushed after pushing your local branch onto github using:
+git push -u origin <name of local branch>
