@@ -1,2 +1,3 @@
 strings = ['This', 'list', 'is', 'now', 'all', 'together']
-sentence = ''
+sentence = ' '.join(strings).rstrip()
+print(sentence)

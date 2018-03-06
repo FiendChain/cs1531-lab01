@@ -25,8 +25,12 @@ def calculate(s):
     1
     >>> calculate(\'print("bad guy coming to hack")\')
     '''
-    # TODO = fill in this function
-    pass
+    # super lazy dodgy parser
+    for char in s:
+        if char.isalpha():
+            return None
+    else:
+        return eval(s)
 
 if __name__ == '__main__':
     import doctest
