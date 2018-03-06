@@ -1,4 +1,4 @@
-Oh look, I'm from the masterrace
+Resolution of merge conflict
 A test file for a git commit
 An edit made from GitHub
 Making a change from a local branch stored on computer
