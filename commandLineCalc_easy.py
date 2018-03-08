@@ -27,7 +27,7 @@ def calculate(s):
     '''
     # super lazy dodgy parser
     for char in s:
-        if char.isalpha():
+        if char.isalpha(): # block most function calls?
             return None
     else:
         return eval(s)
